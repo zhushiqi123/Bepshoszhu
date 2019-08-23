@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TempTypeChooseXibView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="obv-mN-0Sx">
+                    <rect key="frame" x="164" y="0.0" width="156" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="℉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvV-4G-p9i">
+                            <rect key="frame" x="0.0" y="0.0" width="156" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.34509803919999998" green="1" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="jvV-4G-p9i" firstAttribute="top" secondItem="obv-mN-0Sx" secondAttribute="top" id="C3z-RB-UYx"/>
+                        <constraint firstAttribute="trailing" secondItem="jvV-4G-p9i" secondAttribute="trailing" id="I67-oE-5gk"/>
+                        <constraint firstAttribute="bottom" secondItem="jvV-4G-p9i" secondAttribute="bottom" id="WV6-TB-xsP"/>
+                        <constraint firstItem="jvV-4G-p9i" firstAttribute="leading" secondItem="obv-mN-0Sx" secondAttribute="leading" id="mAu-AT-rYC"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9P-O5-6PD">
+                    <rect key="frame" x="0.0" y="0.0" width="156" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="℃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V02-nl-3yx">
+                            <rect key="frame" x="0.0" y="0.0" width="156" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="V02-nl-3yx" secondAttribute="bottom" id="5fr-JO-voi"/>
+                        <constraint firstItem="V02-nl-3yx" firstAttribute="top" secondItem="g9P-O5-6PD" secondAttribute="top" id="Uox-bx-lpi"/>
+                        <constraint firstAttribute="trailing" secondItem="V02-nl-3yx" secondAttribute="trailing" id="X5Q-TX-kPx"/>
+                        <constraint firstItem="V02-nl-3yx" firstAttribute="leading" secondItem="g9P-O5-6PD" secondAttribute="leading" id="oT5-pt-bBG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="g9P-O5-6PD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EwO-Lo-TlN"/>
+                <constraint firstItem="g9P-O5-6PD" firstAttribute="width" secondItem="obv-mN-0Sx" secondAttribute="width" id="LT6-to-VNc"/>
+                <constraint firstAttribute="bottom" secondItem="obv-mN-0Sx" secondAttribute="bottom" id="N6S-dW-qWd"/>
+                <constraint firstItem="obv-mN-0Sx" firstAttribute="leading" secondItem="g9P-O5-6PD" secondAttribute="trailing" constant="8" id="XWs-hE-wV7"/>
+                <constraint firstAttribute="bottom" secondItem="g9P-O5-6PD" secondAttribute="bottom" id="ZL3-9R-puv"/>
+                <constraint firstItem="g9P-O5-6PD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b3q-q7-cZz"/>
+                <constraint firstItem="obv-mN-0Sx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pMa-3M-4KE"/>
+                <constraint firstItem="obv-mN-0Sx" firstAttribute="leading" secondItem="g9P-O5-6PD" secondAttribute="trailing" constant="8" id="sej-Di-7gu"/>
+                <constraint firstAttribute="trailing" secondItem="obv-mN-0Sx" secondAttribute="trailing" id="soX-xC-7aO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lable_Celsius" destination="V02-nl-3yx" id="HsM-9D-uiG"/>
+                <outlet property="lable_Fahrenheit" destination="jvV-4G-p9i" id="2II-sK-LFS"/>
+                <outlet property="temp_view_Celsius" destination="g9P-O5-6PD" id="0RX-pQ-UHe"/>
+                <outlet property="temp_view_Fahrenheit" destination="obv-mN-0Sx" id="I5c-mV-YXV"/>
+            </connections>
+            <point key="canvasLocation" x="101" y="67"/>
+        </view>
+    </objects>
+</document>

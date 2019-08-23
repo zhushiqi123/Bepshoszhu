@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		744FDC9D1F146F1C004C2002 /* DeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FDC9C1F146F1C004C2002 /* DeviceInfoViewController.m */; };
+		74A279B61F130B9300F16F10 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A279B51F130B9300F16F10 /* HomeViewController.m */; };
+		74A279B91F130BD600F16F10 /* AppDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A279B81F130BD600F16F10 /* AppDelegateViewController.m */; };
+		74A279C01F130F4100F16F10 /* NSString+OGCryptoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A279BF1F130F4100F16F10 /* NSString+OGCryptoHash.m */; };
+		74A279C31F1367F100F16F10 /* BindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A279C21F1367F100F16F10 /* BindingViewController.m */; };
+		74A279C51F13753000F16F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A279C41F13753000F16F10 /* Assets.xcassets */; };
+		74F3B6C11F10D6F70060C2BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F3B6C01F10D6F70060C2BB /* main.m */; };
+		74F3B6C41F10D6F70060C2BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F3B6C31F10D6F70060C2BB /* AppDelegate.m */; };
+		74F3B6CA1F10D6F70060C2BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F3B6C81F10D6F70060C2BB /* Main.storyboard */; };
+		74F3B6CF1F10D6F70060C2BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F3B6CD1F10D6F70060C2BB /* LaunchScreen.storyboard */; };
+		74F3B6DA1F10D6F70060C2BB /* VapesoulUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F3B6D91F10D6F70060C2BB /* VapesoulUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74F3B6D61F10D6F70060C2BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74F3B6B41F10D6F70060C2BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F3B6BB1F10D6F70060C2BB;
+			remoteInfo = Vapesoul;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		744FDC9B1F146F1C004C2002 /* DeviceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoViewController.h; sourceTree = "<group>"; };
+		744FDC9C1F146F1C004C2002 /* DeviceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoViewController.m; sourceTree = "<group>"; };
+		74A279B41F130B9300F16F10 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		74A279B51F130B9300F16F10 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		74A279B71F130BD600F16F10 /* AppDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateViewController.h; sourceTree = "<group>"; };
+		74A279B81F130BD600F16F10 /* AppDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateViewController.m; sourceTree = "<group>"; };
+		74A279BC1F130EA400F16F10 /* TYZPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYZPrefixHeader.pch; sourceTree = "<group>"; };
+		74A279BE1F130F4100F16F10 /* NSString+OGCryptoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OGCryptoHash.h"; sourceTree = "<group>"; };
+		74A279BF1F130F4100F16F10 /* NSString+OGCryptoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OGCryptoHash.m"; sourceTree = "<group>"; };
+		74A279C11F1367F100F16F10 /* BindingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindingViewController.h; sourceTree = "<group>"; };
+		74A279C21F1367F100F16F10 /* BindingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindingViewController.m; sourceTree = "<group>"; };
+		74A279C41F13753000F16F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F3B6BC1F10D6F70060C2BB /* Vapesoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vapesoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F3B6C01F10D6F70060C2BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74F3B6C21F10D6F70060C2BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74F3B6C31F10D6F70060C2BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74F3B6C91F10D6F70060C2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74F3B6CE1F10D6F70060C2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74F3B6D01F10D6F70060C2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F3B6D51F10D6F70060C2BB /* VapesoulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VapesoulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F3B6D91F10D6F70060C2BB /* VapesoulUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VapesoulUITests.m; sourceTree = "<group>"; };
+		74F3B6DB1F10D6F70060C2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F3B6B91F10D6F70060C2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F3B6D21F10D6F70060C2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		743E3E791F5D460A00D8D9AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				74A279B21F130B4100F16F10 /* Utils */,
+				74A279B11F130B2F00F16F10 /* HomeView */,
+				743E3E7A1F5D463100D8D9AD /* BindingView */,
+				743E3E7B1F5D463A00D8D9AD /* DeviceInfoView */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		743E3E7A1F5D463100D8D9AD /* BindingView */ = {
+			isa = PBXGroup;
+			children = (
+				743E3E811F5D476100D8D9AD /* Model */,
+				743E3E801F5D475E00D8D9AD /* View */,
+				743E3E7F1F5D475B00D8D9AD /* Controller */,
+				74A279C11F1367F100F16F10 /* BindingViewController.h */,
+				74A279C21F1367F100F16F10 /* BindingViewController.m */,
+			);
+			name = BindingView;
+			sourceTree = "<group>";
+		};
+		743E3E7B1F5D463A00D8D9AD /* DeviceInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				743E3E841F5D476800D8D9AD /* Model */,
+				743E3E831F5D476600D8D9AD /* View */,
+				743E3E821F5D476400D8D9AD /* Controller */,
+				744FDC9B1F146F1C004C2002 /* DeviceInfoViewController.h */,
+				744FDC9C1F146F1C004C2002 /* DeviceInfoViewController.m */,
+			);
+			name = DeviceInfoView;
+			sourceTree = "<group>";
+		};
+		743E3E7D1F5D46C300D8D9AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		743E3E7E1F5D46CE00D8D9AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		743E3E7F1F5D475B00D8D9AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		743E3E801F5D475E00D8D9AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		743E3E811F5D476100D8D9AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		743E3E821F5D476400D8D9AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		743E3E831F5D476600D8D9AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		743E3E841F5D476800D8D9AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		74A279B11F130B2F00F16F10 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				743E3E7D1F5D46C300D8D9AD /* Model */,
+				74A279BB1F130C6000F16F10 /* View */,
+				743E3E7E1F5D46CE00D8D9AD /* Controller */,
+				74A279B41F130B9300F16F10 /* HomeViewController.h */,
+				74A279B51F130B9300F16F10 /* HomeViewController.m */,
+			);
+			name = HomeView;
+			sourceTree = "<group>";
+		};
+		74A279B21F130B4100F16F10 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74A279BD1F130F3400F16F10 /* OGCryptoHash */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		74A279B31F130B6A00F16F10 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				74F3B6C21F10D6F70060C2BB /* AppDelegate.h */,
+				74F3B6C31F10D6F70060C2BB /* AppDelegate.m */,
+				74A279B71F130BD600F16F10 /* AppDelegateViewController.h */,
+				74A279B81F130BD600F16F10 /* AppDelegateViewController.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		74A279BA1F130C3A00F16F10 /* StroyBoards */ = {
+			isa = PBXGroup;
+			children = (
+				74F3B6C81F10D6F70060C2BB /* Main.storyboard */,
+				74F3B6CD1F10D6F70060C2BB /* LaunchScreen.storyboard */,
+				74A279BC1F130EA400F16F10 /* TYZPrefixHeader.pch */,
+			);
+			name = StroyBoards;
+			sourceTree = "<group>";
+		};
+		74A279BB1F130C6000F16F10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		74A279BD1F130F3400F16F10 /* OGCryptoHash */ = {
+			isa = PBXGroup;
+			children = (
+				74A279BE1F130F4100F16F10 /* NSString+OGCryptoHash.h */,
+				74A279BF1F130F4100F16F10 /* NSString+OGCryptoHash.m */,
+			);
+			name = OGCryptoHash;
+			sourceTree = "<group>";
+		};
+		74F3B6B31F10D6F70060C2BB = {
+			isa = PBXGroup;
+			children = (
+				74F3B6BE1F10D6F70060C2BB /* Vapesoul */,
+				74F3B6D81F10D6F70060C2BB /* VapesoulUITests */,
+				74F3B6BD1F10D6F70060C2BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74F3B6BD1F10D6F70060C2BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F3B6BC1F10D6F70060C2BB /* Vapesoul.app */,
+				74F3B6D51F10D6F70060C2BB /* VapesoulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F3B6BE1F10D6F70060C2BB /* Vapesoul */ = {
+			isa = PBXGroup;
+			children = (
+				743E3E791F5D460A00D8D9AD /* Classes */,
+				74A279BA1F130C3A00F16F10 /* StroyBoards */,
+				74A279B31F130B6A00F16F10 /* AppDelegate */,
+				74F3B6D01F10D6F70060C2BB /* Info.plist */,
+				74A279C41F13753000F16F10 /* Assets.xcassets */,
+				74F3B6BF1F10D6F70060C2BB /* Supporting Files */,
+			);
+			path = Vapesoul;
+			sourceTree = "<group>";
+		};
+		74F3B6BF1F10D6F70060C2BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74F3B6C01F10D6F70060C2BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74F3B6D81F10D6F70060C2BB /* VapesoulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74F3B6D91F10D6F70060C2BB /* VapesoulUITests.m */,
+				74F3B6DB1F10D6F70060C2BB /* Info.plist */,
+			);
+			path = VapesoulUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F3B6BB1F10D6F70060C2BB /* Vapesoul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F3B6DE1F10D6F70060C2BB /* Build configuration list for PBXNativeTarget "Vapesoul" */;
+			buildPhases = (
+				74F3B6B81F10D6F70060C2BB /* Sources */,
+				74F3B6B91F10D6F70060C2BB /* Frameworks */,
+				74F3B6BA1F10D6F70060C2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vapesoul;
+			productName = Vapesoul;
+			productReference = 74F3B6BC1F10D6F70060C2BB /* Vapesoul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74F3B6D41F10D6F70060C2BB /* VapesoulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F3B6E11F10D6F70060C2BB /* Build configuration list for PBXNativeTarget "VapesoulUITests" */;
+			buildPhases = (
+				74F3B6D11F10D6F70060C2BB /* Sources */,
+				74F3B6D21F10D6F70060C2BB /* Frameworks */,
+				74F3B6D31F10D6F70060C2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74F3B6D71F10D6F70060C2BB /* PBXTargetDependency */,
+			);
+			name = VapesoulUITests;
+			productName = VapesoulUITests;
+			productReference = 74F3B6D51F10D6F70060C2BB /* VapesoulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F3B6B41F10D6F70060C2BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tyz;
+				TargetAttributes = {
+					74F3B6BB1F10D6F70060C2BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GA48GUKWWF;
+						ProvisioningStyle = Automatic;
+					};
+					74F3B6D41F10D6F70060C2BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GA48GUKWWF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74F3B6BB1F10D6F70060C2BB;
+					};
+				};
+			};
+			buildConfigurationList = 74F3B6B71F10D6F70060C2BB /* Build configuration list for PBXProject "Vapesoul" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F3B6B31F10D6F70060C2BB;
+			productRefGroup = 74F3B6BD1F10D6F70060C2BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F3B6BB1F10D6F70060C2BB /* Vapesoul */,
+				74F3B6D41F10D6F70060C2BB /* VapesoulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F3B6BA1F10D6F70060C2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F3B6CF1F10D6F70060C2BB /* LaunchScreen.storyboard in Resources */,
+				74A279C51F13753000F16F10 /* Assets.xcassets in Resources */,
+				74F3B6CA1F10D6F70060C2BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F3B6D31F10D6F70060C2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F3B6B81F10D6F70060C2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F3B6C41F10D6F70060C2BB /* AppDelegate.m in Sources */,
+				74A279C01F130F4100F16F10 /* NSString+OGCryptoHash.m in Sources */,
+				74A279B91F130BD600F16F10 /* AppDelegateViewController.m in Sources */,
+				744FDC9D1F146F1C004C2002 /* DeviceInfoViewController.m in Sources */,
+				74F3B6C11F10D6F70060C2BB /* main.m in Sources */,
+				74A279C31F1367F100F16F10 /* BindingViewController.m in Sources */,
+				74A279B61F130B9300F16F10 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F3B6D11F10D6F70060C2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F3B6DA1F10D6F70060C2BB /* VapesoulUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74F3B6D71F10D6F70060C2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74F3B6BB1F10D6F70060C2BB /* Vapesoul */;
+			targetProxy = 74F3B6D61F10D6F70060C2BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74F3B6C81F10D6F70060C2BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F3B6C91F10D6F70060C2BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74F3B6CD1F10D6F70060C2BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F3B6CE1F10D6F70060C2BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F3B6DC1F10D6F70060C2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/TYZPrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74F3B6DD1F10D6F70060C2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/TYZPrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74F3B6DF1F10D6F70060C2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GA48GUKWWF;
+				INFOPLIST_FILE = Vapesoul/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stw.Vapesoul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74F3B6E01F10D6F70060C2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GA48GUKWWF;
+				INFOPLIST_FILE = Vapesoul/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stw.Vapesoul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		74F3B6E21F10D6F70060C2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GA48GUKWWF;
+				INFOPLIST_FILE = VapesoulUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stw.VapesoulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vapesoul;
+			};
+			name = Debug;
+		};
+		74F3B6E31F10D6F70060C2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GA48GUKWWF;
+				INFOPLIST_FILE = VapesoulUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stw.VapesoulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vapesoul;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F3B6B71F10D6F70060C2BB /* Build configuration list for PBXProject "Vapesoul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F3B6DC1F10D6F70060C2BB /* Debug */,
+				74F3B6DD1F10D6F70060C2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F3B6DE1F10D6F70060C2BB /* Build configuration list for PBXNativeTarget "Vapesoul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F3B6DF1F10D6F70060C2BB /* Debug */,
+				74F3B6E01F10D6F70060C2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F3B6E11F10D6F70060C2BB /* Build configuration list for PBXNativeTarget "VapesoulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F3B6E21F10D6F70060C2BB /* Debug */,
+				74F3B6E31F10D6F70060C2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F3B6B41F10D6F70060C2BB /* Project object */;
+}
