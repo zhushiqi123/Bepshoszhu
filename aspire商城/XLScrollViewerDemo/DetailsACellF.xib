@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="25" id="9We-rJ-9GO" customClass="DetailsACellF">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="25"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9We-rJ-9GO" id="7dG-cN-D8a">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="24.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbo-j3-Urd">
+                        <rect key="frame" x="8" y="0.0" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="358-9J-NO2"/>
+                            <constraint firstAttribute="width" constant="25" id="54b-AZ-iGQ"/>
+                        </constraints>
+                        <state key="normal" image="radio_unchecked"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="颜色：黑色（￥12）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGt-sS-dhR">
+                        <rect key="frame" x="41" y="0.0" width="337" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="pYE-rf-GKr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kbo-j3-Urd" firstAttribute="top" secondItem="7dG-cN-D8a" secondAttribute="topMargin" constant="-8" id="W0u-JF-7UA"/>
+                    <constraint firstItem="kbo-j3-Urd" firstAttribute="leading" secondItem="7dG-cN-D8a" secondAttribute="leadingMargin" id="bJj-3A-qXm"/>
+                    <constraint firstItem="vGt-sS-dhR" firstAttribute="leading" secondItem="kbo-j3-Urd" secondAttribute="trailing" constant="8" id="bgh-o0-S1x"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vGt-sS-dhR" secondAttribute="bottom" constant="-8" id="hAc-Av-eN0"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="vGt-sS-dhR" secondAttribute="trailing" constant="-8" id="p8W-9c-OVg"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="kbo-j3-Urd" secondAttribute="bottom" constant="-8" id="s5Q-oq-n0Z"/>
+                    <constraint firstItem="vGt-sS-dhR" firstAttribute="top" secondItem="7dG-cN-D8a" secondAttribute="topMargin" constant="-8" id="uVP-Bg-9tJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="checkBx" destination="kbo-j3-Urd" id="RLn-e6-OzE"/>
+                <outlet property="type" destination="vGt-sS-dhR" id="oA9-0V-Byc"/>
+            </connections>
+            <point key="canvasLocation" x="321" y="216.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="radio_unchecked" width="15" height="15"/>
+    </resources>
+</document>

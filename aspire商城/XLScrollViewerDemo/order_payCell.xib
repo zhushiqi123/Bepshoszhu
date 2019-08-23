@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="hdQ-M1-Pnl" userLabel="order_payCell" customClass="order_payCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hdQ-M1-Pnl" id="3DT-eo-WMf">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mlO-Wr-LsX">
+                        <rect key="frame" x="8" y="0.0" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="ND0-qV-Gqi"/>
+                            <constraint firstAttribute="height" constant="80" id="lCP-d4-Sz1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFC-7O-kBy">
+                        <rect key="frame" x="96" y="8" width="255" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CR4-50-tvP">
+                        <rect key="frame" x="96" y="37" width="512" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="mlO-Wr-LsX" secondAttribute="bottom" constant="-8" id="2dn-8K-kB2"/>
+                    <constraint firstItem="CR4-50-tvP" firstAttribute="leading" secondItem="mlO-Wr-LsX" secondAttribute="trailing" constant="8" id="4CZ-xF-65O"/>
+                    <constraint firstItem="EFC-7O-kBy" firstAttribute="top" secondItem="3DT-eo-WMf" secondAttribute="topMargin" id="SUC-aA-cDp"/>
+                    <constraint firstItem="mlO-Wr-LsX" firstAttribute="top" secondItem="3DT-eo-WMf" secondAttribute="topMargin" constant="-8" id="X0o-JV-iOS"/>
+                    <constraint firstItem="CR4-50-tvP" firstAttribute="top" secondItem="EFC-7O-kBy" secondAttribute="bottom" constant="8" id="bFy-cc-sJW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="CR4-50-tvP" secondAttribute="trailing" constant="-8" id="uE3-Fj-R23"/>
+                    <constraint firstItem="mlO-Wr-LsX" firstAttribute="leading" secondItem="3DT-eo-WMf" secondAttribute="leadingMargin" id="wjn-Bd-jhB"/>
+                    <constraint firstItem="EFC-7O-kBy" firstAttribute="leading" secondItem="mlO-Wr-LsX" secondAttribute="trailing" constant="8" id="xjG-wX-7ra"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="order_image" destination="mlO-Wr-LsX" id="oDE-nC-eL7"/>
+                <outlet property="order_name" destination="EFC-7O-kBy" id="Wvt-DS-ZtL"/>
+                <outlet property="order_type" destination="CR4-50-tvP" id="Yr7-2T-rW9"/>
+            </connections>
+            <point key="canvasLocation" x="335" y="200"/>
+        </tableViewCell>
+    </objects>
+</document>

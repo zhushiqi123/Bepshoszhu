@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="LWa-IT-jrE" customClass="DetailsACellTableC">
+            <rect key="frame" x="0.0" y="0.0" width="402" height="148"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LWa-IT-jrE" id="lLU-EQ-5Ay">
+                <rect key="frame" x="0.0" y="0.0" width="402" height="147.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="prA-jv-h46">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="148"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="prA-jv-h46" firstAttribute="leading" secondItem="lLU-EQ-5Ay" secondAttribute="leadingMargin" constant="-8" id="Py1-Xj-82T"/>
+                    <constraint firstItem="prA-jv-h46" firstAttribute="top" secondItem="lLU-EQ-5Ay" secondAttribute="topMargin" constant="-8" id="Tbl-h0-KDB"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="prA-jv-h46" secondAttribute="bottom" constant="-8" id="nGV-bm-ItT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="prA-jv-h46" secondAttribute="trailing" constant="-8" id="xd2-Jz-2Vk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tableview" destination="prA-jv-h46" id="iqO-HL-fAe"/>
+            </connections>
+            <point key="canvasLocation" x="357" y="318"/>
+        </tableViewCell>
+    </objects>
+</document>

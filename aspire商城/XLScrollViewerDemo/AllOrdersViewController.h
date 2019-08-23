@@ -1,0 +1,13 @@
+//
+//  AllOrdersViewController.h
+//  aspire商城
+//
+//  Created by tyz on 15/12/21.
+//  Copyright © 2015年 Stw. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AllOrdersViewController : UIViewController
+
+@end

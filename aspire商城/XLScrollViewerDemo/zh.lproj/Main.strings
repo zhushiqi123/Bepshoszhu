@@ -1,0 +1,324 @@
+
+/* Class = "UILabel"; text = "备注:"; ObjectID = "0M7-RO-LpB"; */
+"0M7-RO-LpB.text" = "备注:";
+
+/* Class = "UILabel"; text = "省市区:"; ObjectID = "1D7-L4-rZI"; */
+"1D7-L4-rZI.text" = "省市区:";
+
+/* Class = "UILabel"; text = "密码："; ObjectID = "2Hy-Ad-PeU"; */
+"2Hy-Ad-PeU.text" = "密码：";
+
+/* Class = "UISearchBar"; placeholder = "请输入防伪码编号"; ObjectID = "2Ma-3L-ald"; */
+"2Ma-3L-ald.placeholder" = "请输入防伪码编号";
+
+/* Class = "UITextField"; placeholder = "请输入邮政编码"; ObjectID = "2ey-Od-FxV"; */
+"2ey-Od-FxV.placeholder" = "请输入邮政编码";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "2ks-gd-UC9"; */
+"2ks-gd-UC9.normalTitle" = "注册";
+
+/* Class = "UITextField"; placeholder = "请确认密码"; ObjectID = "37l-Qs-MRF"; */
+"37l-Qs-MRF.placeholder" = "请确认密码";
+
+/* Class = "UIButton"; normalTitle = "添加到购物车"; ObjectID = "3FV-Nu-smC"; */
+"3FV-Nu-smC.normalTitle" = "添加到购物车";
+
+/* Class = "UIButton"; normalTitle = "运费:￥"; ObjectID = "3Ss-ma-P8f"; */
+"3Ss-ma-P8f.normalTitle" = "运费:￥";
+
+/* Class = "UILabel"; text = "姓名:"; ObjectID = "3wO-zI-UIH"; */
+"3wO-zI-UIH.text" = "姓名:";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "5Ro-Kh-LQu"; */
+"5Ro-Kh-LQu.normalTitle" = "登录";
+
+/* Class = "UITextField"; placeholder = "请输入收货人联系邮箱"; ObjectID = "62w-fI-ZJB"; */
+"62w-fI-ZJB.placeholder" = "请输入收货人联系邮箱";
+
+/* Class = "UITextField"; placeholder = "请输入新密码"; ObjectID = "6Wy-pe-OWz"; */
+"6Wy-pe-OWz.placeholder" = "请输入新密码";
+
+/* Class = "UILabel"; text = "确认密码："; ObjectID = "Adj-3l-vHo"; */
+"Adj-3l-vHo.text" = "确认密码：";
+
+/* Class = "UILabel"; text = "移动电话："; ObjectID = "Asl-7Y-hEJ"; */
+"Asl-7Y-hEJ.text" = "移动电话：";
+
+/* Class = "UILabel"; text = "乡镇街道:"; ObjectID = "Bgq-eT-xVC"; */
+"Bgq-eT-xVC.text" = "乡镇街道:";
+
+/* Class = "UINavigationItem"; title = "订单信息"; ObjectID = "C1m-R2-mMd"; */
+"C1m-R2-mMd.title" = "订单信息";
+
+/* Class = "UITextField"; placeholder = "请输入用户名"; ObjectID = "CC4-LF-ZXW"; */
+"CC4-LF-ZXW.placeholder" = "请输入用户名";
+
+/* Class = "UILabel"; text = "商品信息"; ObjectID = "CLt-20-Rpt"; */
+"CLt-20-Rpt.text" = "商品信息";
+
+/* Class = "UILabel"; text = "请输入收货人的地址"; ObjectID = "CSr-ET-Wdi"; */
+"CSr-ET-Wdi.text" = "请输入收货人的地址";
+
+/* Class = "UILabel"; text = "旧密码："; ObjectID = "E39-ya-lqK"; */
+"E39-ya-lqK.text" = "旧密码：";
+
+/* Class = "UIButton"; normalTitle = "￥:"; ObjectID = "ETB-vd-lSY"; */
+"ETB-vd-lSY.normalTitle" = "￥:";
+
+/* Class = "UILabel"; text = "公司邮箱：service@aspirecig.cn"; ObjectID = "Eci-0Q-lAB"; */
+"Eci-0Q-lAB.text" = "公司邮箱：service@aspirecig.cn";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "FC6-No-YAG"; */
+"FC6-No-YAG.normalTitle" = "确定";
+
+/* Class = "UITextField"; placeholder = "请输入收货人的详细位置"; ObjectID = "FRF-xY-GtU"; */
+"FRF-xY-GtU.placeholder" = "请输入收货人的详细位置";
+
+/* Class = "UITextField"; placeholder = "请输入旧密码"; ObjectID = "IL5-oX-OjZ"; */
+"IL5-oX-OjZ.placeholder" = "请输入旧密码";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KwC-Gn-Gcb"; */
+"KwC-Gn-Gcb.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "支付"; ObjectID = "LXD-op-24p"; */
+"LXD-op-24p.normalTitle" = "支付";
+
+/* Class = "UITextField"; placeholder = "请输入邮箱"; ObjectID = "LhC-TY-wFz"; */
+"LhC-TY-wFz.placeholder" = "请输入邮箱";
+
+/* Class = "UILabel"; text = "评论内容"; ObjectID = "Lrj-4x-blc"; */
+"Lrj-4x-blc.text" = "评论内容";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "M0D-vw-drB"; */
+"M0D-vw-drB.placeholder" = "请输入密码";
+
+/* Class = "UITextField"; text = "0000"; ObjectID = "M2X-in-lsZ"; */
+"M2X-in-lsZ.text" = "0000";
+
+/* Class = "UITextField"; placeholder = "请输入您的MSN"; ObjectID = "Msm-nH-SBl"; */
+"Msm-nH-SBl.placeholder" = "请输入您的MSN";
+
+/* Class = "UITextField"; placeholder = "请输入用户名"; ObjectID = "Nu5-fK-kmi"; */
+"Nu5-fK-kmi.placeholder" = "请输入用户名";
+
+/* Class = "UILabel"; text = "QQ:"; ObjectID = "OFq-z3-l10"; */
+"OFq-z3-l10.text" = "QQ:";
+
+/* Class = "UILabel"; text = "年"; ObjectID = "OIJ-kq-bld"; */
+"OIJ-kq-bld.text" = "年";
+
+/* Class = "UITextField"; placeholder = "请输入收货人联系电话"; ObjectID = "PS8-Cb-bDI"; */
+"PS8-Cb-bDI.placeholder" = "请输入收货人联系电话";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "PiQ-ED-9Ea"; */
+"PiQ-ED-9Ea.normalTitle" = "确认";
+
+/* Class = "UIButton"; normalTitle = "下单"; ObjectID = "R4L-vB-EoS"; */
+"R4L-vB-EoS.normalTitle" = "下单";
+
+/* Class = "UITextField"; text = "00"; ObjectID = "RB5-fZ-4O1"; */
+"RB5-fZ-4O1.text" = "00";
+
+/* Class = "UILabel"; text = "企业QQ：4006096926"; ObjectID = "S5W-HX-ZJr"; */
+"S5W-HX-ZJr.text" = "企业QQ：4006096926";
+
+/* Class = "UILabel"; text = "联系邮箱:"; ObjectID = "SeE-El-O69"; */
+"SeE-El-O69.text" = "联系邮箱:";
+
+/* Class = "UITextField"; placeholder = "请输入您的家庭电话"; ObjectID = "Sfs-Xt-NS3"; */
+"Sfs-Xt-NS3.placeholder" = "请输入您的家庭电话";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Soc-yB-sbP"; */
+"Soc-yB-sbP.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "新增收货地址"; ObjectID = "TMS-Nk-tfy"; */
+"TMS-Nk-tfy.normalTitle" = "新增收货地址";
+
+/* Class = "UILabel"; text = "月"; ObjectID = "Til-gQ-q6N"; */
+"Til-gQ-q6N.text" = "月";
+
+/* Class = "UIButton"; normalTitle = "评价"; ObjectID = "V4n-0J-cTp"; */
+"V4n-0J-cTp.normalTitle" = "评价";
+
+/* Class = "UILabel"; text = "男"; ObjectID = "VQA-J1-XYG"; */
+"VQA-J1-XYG.text" = "男";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "W1K-Cq-3pB"; */
+"W1K-Cq-3pB.normalTitle" = "+";
+
+/* Class = "UILabel"; text = "MSN:"; ObjectID = "W3M-Eu-Rms"; */
+"W3M-Eu-Rms.text" = "MSN:";
+
+/* Class = "UILabel"; text = "查询结果:"; ObjectID = "WX1-Zs-8zD"; */
+"WX1-Zs-8zD.text" = "查询结果:";
+
+/* Class = "UINavigationItem"; title = "商品列表"; ObjectID = "Wse-B3-W6C"; */
+"Wse-B3-W6C.title" = "商品列表";
+
+/* Class = "UILabel"; text = "账号："; ObjectID = "XQ1-Qq-xHN"; */
+"XQ1-Qq-xHN.text" = "账号：";
+
+/* Class = "UILabel"; text = "商品评分:"; ObjectID = "YLB-B6-pII"; */
+"YLB-B6-pII.text" = "商品评分:";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "Zwl-iG-92L"; */
+"Zwl-iG-92L.placeholder" = "请输入密码";
+
+/* Class = "UITextField"; placeholder = "请确认您的密码"; ObjectID = "aQm-zE-swg"; */
+"aQm-zE-swg.placeholder" = "请确认您的密码";
+
+/* Class = "UILabel"; text = "日"; ObjectID = "buI-e8-iVp"; */
+"buI-e8-iVp.text" = "日";
+
+/* Class = "UITextField"; placeholder = "请输入收货人联系邮箱"; ObjectID = "cFu-sX-saV"; */
+"cFu-sX-saV.placeholder" = "请输入收货人联系邮箱";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cwa-ba-kzN"; */
+"cwa-ba-kzN.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "姓名："; ObjectID = "dGR-3I-IE3"; */
+"dGR-3I-IE3.text" = "姓名：";
+
+/* Class = "UILabel"; text = "省市区："; ObjectID = "dZA-Ou-RTh"; */
+"dZA-Ou-RTh.text" = "省市区：";
+
+/* Class = "UILabel"; text = "邮政编码:"; ObjectID = "dmv-G4-xuc"; */
+"dmv-G4-xuc.text" = "邮政编码:";
+
+/* Class = "UITextField"; placeholder = "请输入收货人联系电话"; ObjectID = "g6u-DO-Ld7"; */
+"g6u-DO-Ld7.placeholder" = "请输入收货人联系电话";
+
+/* Class = "UILabel"; text = "性别："; ObjectID = "gff-Vz-EVy"; */
+"gff-Vz-EVy.text" = "性别：";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "hLm-RK-FFa"; */
+"hLm-RK-FFa.normalTitle" = "注册";
+
+/* Class = "UISegmentedControl"; hom-im-Hbh.segmentTitles[0] = "商品名称"; ObjectID = "hom-im-Hbh"; */
+"hom-im-Hbh.segmentTitles[0]" = "商品名称";
+
+/* Class = "UISegmentedControl"; hom-im-Hbh.segmentTitles[1] = "本店价"; ObjectID = "hom-im-Hbh"; */
+"hom-im-Hbh.segmentTitles[1]" = "本店价";
+
+/* Class = "UISegmentedControl"; hom-im-Hbh.segmentTitles[2] = "数量"; ObjectID = "hom-im-Hbh"; */
+"hom-im-Hbh.segmentTitles[2]" = "数量";
+
+/* Class = "UISegmentedControl"; hom-im-Hbh.segmentTitles[3] = "小计"; ObjectID = "hom-im-Hbh"; */
+"hom-im-Hbh.segmentTitles[3]" = "小计";
+
+/* Class = "UITextField"; placeholder = "请输入收货人姓名"; ObjectID = "iKv-fc-rbs"; */
+"iKv-fc-rbs.placeholder" = "请输入收货人姓名";
+
+/* Class = "UILabel"; text = "新密码："; ObjectID = "iTk-lR-Ibb"; */
+"iTk-lR-Ibb.text" = "新密码：";
+
+/* Class = "UITextField"; placeholder = "请输入您的办公电话"; ObjectID = "j5h-mL-TgL"; */
+"j5h-mL-TgL.placeholder" = "请输入您的办公电话";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "j5i-jQ-bDE"; */
+"j5i-jQ-bDE.normalTitle" = "确认";
+
+/* Class = "UILabel"; text = "邮政编码："; ObjectID = "jaS-ze-4Gg"; */
+"jaS-ze-4Gg.text" = "邮政编码：";
+
+/* Class = "UILabel"; text = "备注："; ObjectID = "k5K-6O-WBn"; */
+"k5K-6O-WBn.text" = "备注：";
+
+/* Class = "UILabel"; text = "联系电话:"; ObjectID = "khH-EY-vM1"; */
+"khH-EY-vM1.text" = "联系电话:";
+
+/* Class = "UISearchBar"; placeholder = "请输入需要查询的内容"; ObjectID = "lRf-Av-pxV"; */
+"lRf-Av-pxV.placeholder" = "请输入需要查询的内容";
+
+/* Class = "UITextField"; placeholder = "请输入您的移动电话"; ObjectID = "nAB-hS-azd"; */
+"nAB-hS-azd.placeholder" = "请输入您的移动电话";
+
+/* Class = "UILabel"; text = "生日:"; ObjectID = "nNE-yo-1WV"; */
+"nNE-yo-1WV.text" = "生日:";
+
+/* Class = "UITextField"; placeholder = "请输入您的备注"; ObjectID = "nT1-cK-HYT"; */
+"nT1-cK-HYT.placeholder" = "请输入您的备注";
+
+/* Class = "UILabel"; text = "请点击输入收货人地址"; ObjectID = "oEW-p8-2xZ"; */
+"oEW-p8-2xZ.text" = "请点击输入收货人地址";
+
+/* Class = "UITextField"; placeholder = "请输入您的QQ"; ObjectID = "oHK-aV-63W"; */
+"oHK-aV-63W.placeholder" = "请输入您的QQ";
+
+/* Class = "UITextField"; placeholder = "请输入收货人姓名"; ObjectID = "omz-bw-D4g"; */
+"omz-bw-D4g.placeholder" = "请输入收货人姓名";
+
+/* Class = "UILabel"; text = "办公室电话:"; ObjectID = "p7c-MI-pth"; */
+"p7c-MI-pth.text" = "办公室电话:";
+
+/* Class = "UITextView"; text = "Aspire中国售后政策\n       凡在aspire商城及官方平台（含天猫，京东）购买的产品都可享受7天无理由退货、15天免费换货、3个月免费维修的政策。\n一、7天无理由退货\n     aspire向您承诺：自您收到购买的商品7天内，可以无理由为您退货。 \n详细条款：\n1、退货商品必须保证无拆封、不影响二次销售，所有配件、发票（如有）等一并寄回；\n2、退回商品的运费由消费者承担；\n3、通过线下门店、企业团购，非官方平台渠道购买的商品，不享受7天无理由退货 ;\n二、15天免费换货\naspire向您承诺：自您收到购买的商品（电池类）15天内，如遇质量问题，aspire将会为您免费换货。\n详细条款：\n1、商品换货只支持更换同型号、同规格、同颜色的商品；\n2、套装类，我们只针对有质量问题的单个电池进行换新，不对整个套装进行跟换；\n3、我司对雾化芯只提供DOA（到货未使用）换货政策，用户收到货未使用前发现雾化芯有质量问题如漏装密封圈、钢网、棉花等，请于24小时内联系客服人员进行换新。\n其他不予办理退换货的情况\n(1)任何非aspire官方出售的商品（验证码、订单号不符）；\n(2)过保商品（超过三包保修期的商品）； \n(3)未经授权的维修、误用、碰撞、疏忽、滥用、进液、事故、改动、不正确的安装所造成的商品质量问题，或撕毁、涂改标贴、防伪标记；\n(4)商品的外包装、附件、赠品、说明书不完整；\n(5)以物流损坏、漏发或错发商品为原因的退换货，客户已签收，并且无法提供物流公司开具的相关凭据；\n(6)玻璃管和雾化器属于碎品/消耗品不在此政策类；\n(7)购买时明确说明不支持退换货的商品。\n三、3个月免费维修政策\n       商品自物流签收日期起主机如在3个月内出现非人为损坏的性能故障，消费者可在aspire官方售后平台享受免费维修服务。\n1、保修细则\n(1）套装内电池、随套装附带的配件如替换钢管、充电器可享受3个月的保修期；\n(2）单独购买的配件根据相应配件质保政策享受质保服务；\n(3）针对雾化器我们提供15天的保修政策，15天内非人为原因导致雾化器的底座、中心杆脱落，我们将免费寄送新配件进行更换。\n2、保修条款限制\n（1）超过保修期；\n（2）雾化芯、玻璃管属于消耗或易碎品不享受三包服务；\n（3）未按产品使用说明书要求使用、维护、保养造成损坏的；\n（4）由于使用失误如坠落、挤压、浸水而造成的损坏；\n（5）在非aspire官方售后点维修过的产品；\n（6）使用非aspire原厂配件，导致产品故障或事故的；\n（7）任何非aspire出售的产品，及产品上表明的型号、编号和制造号已经更改、删除、 移动或不可辨认；\n（8）电芯在使用过程中的自然损耗，静电损坏；\n（9）因不可抗力造成的顺坏；\n以上所列，若有变更，以本公司新制定的有关规定及国家法律法规为准。\n四、退换货服务处理周期\n1、退货处理周期：自您退回的完整商品及相关物件成功入库之日算起，一般情况下3-5个工作日（不包括银行到账周期）。\n2、换货处理周期：自您退回的完整商品及相关物件成功入库之日算起，一般情况下7个工作日内为您寄出换货商品。\n3、如遇国家法定节假日、与退换货政策存在出入、客户个人原因或者有其他需要协商的问题，则可能会增加协商和处理的时间。\n五、关于运费：\n1、退换货商品客户应承担商品寄回的运费，商品寄送到客户手中的运费由aspire承担，我们拒收一切到付件。\n2、保修期内，我们承担寄出去的运费，保修期外，运费则由客户一人承担。\n六、免责条款\n1、aspire商城网页上提供的图片，由于拍摄灯光变化及显示器色差等原因可能与实物有细微区别，效果演示图和示意图仅供参考（图片为合成图、模拟演示图），有关产品的外观（包括但不限于颜色）请以实物为准； \n2、限于篇幅，aspire商城中所包含的信息（包括但不限于产品规格、功能说明等）可能不完整，请以有关产品使用说明书的具体信息为准； \n3、由于您的技术水平、使用环境限制造成的问题，aspire将不予受理退换货；\n4、国内售后仅限于中文包装的正品；\n5、不能提供商品的防伪码、订单号，收据，发票（如果有）的将不予处理售后。"; ObjectID = "pvn-Cm-B3X"; */
+"pvn-Cm-B3X.text" = "Aspire中国售后政策\n       凡在aspire商城及官方平台（含天猫，京东）购买的产品都可享受7天无理由退货、15天免费换货、3个月免费维修的政策。\n一、7天无理由退货\n     aspire向您承诺：自您收到购买的商品7天内，可以无理由为您退货。 \n详细条款：\n1、退货商品必须保证无拆封、不影响二次销售，所有配件、发票（如有）等一并寄回；\n2、退回商品的运费由消费者承担；\n3、通过线下门店、企业团购，非官方平台渠道购买的商品，不享受7天无理由退货 ;\n二、15天免费换货\naspire向您承诺：自您收到购买的商品（电池类）15天内，如遇质量问题，aspire将会为您免费换货。\n详细条款：\n1、商品换货只支持更换同型号、同规格、同颜色的商品；\n2、套装类，我们只针对有质量问题的单个电池进行换新，不对整个套装进行跟换；\n3、我司对雾化芯只提供DOA（到货未使用）换货政策，用户收到货未使用前发现雾化芯有质量问题如漏装密封圈、钢网、棉花等，请于24小时内联系客服人员进行换新。\n其他不予办理退换货的情况\n(1)任何非aspire官方出售的商品（验证码、订单号不符）；\n(2)过保商品（超过三包保修期的商品）； \n(3)未经授权的维修、误用、碰撞、疏忽、滥用、进液、事故、改动、不正确的安装所造成的商品质量问题，或撕毁、涂改标贴、防伪标记；\n(4)商品的外包装、附件、赠品、说明书不完整；\n(5)以物流损坏、漏发或错发商品为原因的退换货，客户已签收，并且无法提供物流公司开具的相关凭据；\n(6)玻璃管和雾化器属于碎品/消耗品不在此政策类；\n(7)购买时明确说明不支持退换货的商品。\n三、3个月免费维修政策\n       商品自物流签收日期起主机如在3个月内出现非人为损坏的性能故障，消费者可在aspire官方售后平台享受免费维修服务。\n1、保修细则\n(1）套装内电池、随套装附带的配件如替换钢管、充电器可享受3个月的保修期；\n(2）单独购买的配件根据相应配件质保政策享受质保服务；\n(3）针对雾化器我们提供15天的保修政策，15天内非人为原因导致雾化器的底座、中心杆脱落，我们将免费寄送新配件进行更换。\n2、保修条款限制\n（1）超过保修期；\n（2）雾化芯、玻璃管属于消耗或易碎品不享受三包服务；\n（3）未按产品使用说明书要求使用、维护、保养造成损坏的；\n（4）由于使用失误如坠落、挤压、浸水而造成的损坏；\n（5）在非aspire官方售后点维修过的产品；\n（6）使用非aspire原厂配件，导致产品故障或事故的；\n（7）任何非aspire出售的产品，及产品上表明的型号、编号和制造号已经更改、删除、 移动或不可辨认；\n（8）电芯在使用过程中的自然损耗，静电损坏；\n（9）因不可抗力造成的顺坏；\n以上所列，若有变更，以本公司新制定的有关规定及国家法律法规为准。\n四、退换货服务处理周期\n1、退货处理周期：自您退回的完整商品及相关物件成功入库之日算起，一般情况下3-5个工作日（不包括银行到账周期）。\n2、换货处理周期：自您退回的完整商品及相关物件成功入库之日算起，一般情况下7个工作日内为您寄出换货商品。\n3、如遇国家法定节假日、与退换货政策存在出入、客户个人原因或者有其他需要协商的问题，则可能会增加协商和处理的时间。\n五、关于运费：\n1、退换货商品客户应承担商品寄回的运费，商品寄送到客户手中的运费由aspire承担，我们拒收一切到付件。\n2、保修期内，我们承担寄出去的运费，保修期外，运费则由客户一人承担。\n六、免责条款\n1、aspire商城网页上提供的图片，由于拍摄灯光变化及显示器色差等原因可能与实物有细微区别，效果演示图和示意图仅供参考（图片为合成图、模拟演示图），有关产品的外观（包括但不限于颜色）请以实物为准； \n2、限于篇幅，aspire商城中所包含的信息（包括但不限于产品规格、功能说明等）可能不完整，请以有关产品使用说明书的具体信息为准； \n3、由于您的技术水平、使用环境限制造成的问题，aspire将不予受理退换货；\n4、国内售后仅限于中文包装的正品；\n5、不能提供商品的防伪码、订单号，收据，发票（如果有）的将不予处理售后。";
+
+/* Class = "UILabel"; text = "忘记密码"; ObjectID = "qsa-jj-HlB"; */
+"qsa-jj-HlB.text" = "忘记密码";
+
+/* Class = "UILabel"; text = "乡镇街道："; ObjectID = "qwX-ae-XOk"; */
+"qwX-ae-XOk.text" = "乡镇街道：";
+
+/* Class = "UITextField"; placeholder = "请输入收货人的详细位置"; ObjectID = "r7S-o6-jqb"; */
+"r7S-o6-jqb.placeholder" = "请输入收货人的详细位置";
+
+/* Class = "UITextView"; text = "为改变而生，以经典长存 \n       Aspire品牌创建于2013年，专注于健康电子烟产品的原创研发与自主生产，一系列的革命性技术与颠覆性产品不断引领电子烟行业技术与创新的新潮流。两年来，Aspire以其扎实深厚的技术实力，稳定可靠的品质能力，独具匠心的创造力及用心周到的服务享誉全球。\n       突破，是对领先最好的延续。强大的研发阵容、先进的生产设备、严格的质量体系与开放的市场文化，让Aspire在行业内独树一帜，产品因品质高端、外观时尚与性能完整受到广泛的追捧与喜爱。经过两年多的努力，aspire厚积薄发，孕育着每一次超越的力量，现已与多名国内外著名电子烟评测专家与资深爱好者保持了密切的联系，不断置身于科技与信息最前沿，注重用户体验，产品已取得超过30项外观与技术专利，并通过了CE和RoHS认证。从鹦鹉螺到亚特兰蒂斯再到海神雾化器，从碳纤系列电池杆到大功率飞马电池盒子，从简易入门套装到奢华海神飞马套装，aspire总是以颠覆性的产品不断震撼着电子烟界，这些声名远扬的产品畅销全球20多个国家和地区，尤其是鹦鹉螺雾化器因为经典的外观与至纯的口感更是创造了电子烟市场的不朽神话。\n       “为改变而生，以经典长存”是Aspire品牌的愿景。Aspire深谙价值的力量，将“为客户创造价值”作为运营核心，致力于开发与创造能满足消费者全方位需求的产品，将健康、安全与时尚、多功能融合一体，帮助烟民戒烟，并为电子烟爱好者带来极致的口感享受与浓密的烟雾体验。为你们的生活带来改变，让我们的产品历久弥新。\n        Aspire，革新创造经典，经典铸就传奇。"; ObjectID = "rUP-bc-bAo"; */
+"rUP-bc-bAo.text" = "为改变而生，以经典长存 \n       Aspire品牌创建于2013年，专注于健康电子烟产品的原创研发与自主生产，一系列的革命性技术与颠覆性产品不断引领电子烟行业技术与创新的新潮流。两年来，Aspire以其扎实深厚的技术实力，稳定可靠的品质能力，独具匠心的创造力及用心周到的服务享誉全球。\n       突破，是对领先最好的延续。强大的研发阵容、先进的生产设备、严格的质量体系与开放的市场文化，让Aspire在行业内独树一帜，产品因品质高端、外观时尚与性能完整受到广泛的追捧与喜爱。经过两年多的努力，aspire厚积薄发，孕育着每一次超越的力量，现已与多名国内外著名电子烟评测专家与资深爱好者保持了密切的联系，不断置身于科技与信息最前沿，注重用户体验，产品已取得超过30项外观与技术专利，并通过了CE和RoHS认证。从鹦鹉螺到亚特兰蒂斯再到海神雾化器，从碳纤系列电池杆到大功率飞马电池盒子，从简易入门套装到奢华海神飞马套装，aspire总是以颠覆性的产品不断震撼着电子烟界，这些声名远扬的产品畅销全球20多个国家和地区，尤其是鹦鹉螺雾化器因为经典的外观与至纯的口感更是创造了电子烟市场的不朽神话。\n       “为改变而生，以经典长存”是Aspire品牌的愿景。Aspire深谙价值的力量，将“为客户创造价值”作为运营核心，致力于开发与创造能满足消费者全方位需求的产品，将健康、安全与时尚、多功能融合一体，帮助烟民戒烟，并为电子烟爱好者带来极致的口感享受与浓密的烟雾体验。为你们的生活带来改变，让我们的产品历久弥新。\n        Aspire，革新创造经典，经典铸就传奇。";
+
+/* Class = "UITextField"; placeholder = "请输入您的备注"; ObjectID = "rWD-3s-uE6"; */
+"rWD-3s-uE6.placeholder" = "请输入您的备注";
+
+/* Class = "UITextField"; text = "00"; ObjectID = "sXE-b3-gba"; */
+"sXE-b3-gba.text" = "00";
+
+/* Class = "UIButton"; normalTitle = "查询商品"; ObjectID = "sk7-zR-EBv"; */
+"sk7-zR-EBv.normalTitle" = "查询商品";
+
+/* Class = "UINavigationItem"; title = "产品查询"; ObjectID = "sqt-Gm-cBJ"; */
+"sqt-Gm-cBJ.title" = "产品查询";
+
+/* Class = "UITextField"; placeholder = "请输入邮政编码"; ObjectID = "syw-zo-ttq"; */
+"syw-zo-ttq.placeholder" = "请输入邮政编码";
+
+/* Class = "UILabel"; text = "联系电话："; ObjectID = "tLT-4U-Lh8"; */
+"tLT-4U-Lh8.text" = "联系电话：";
+
+/* Class = "UILabel"; text = "家庭电话："; ObjectID = "teC-BX-q30"; */
+"teC-BX-q30.text" = "家庭电话：";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "w1y-31-Gui"; */
+"w1y-31-Gui.normalTitle" = "确定";
+
+/* Class = "UIButton"; normalTitle = "-"; ObjectID = "x21-hi-UYr"; */
+"x21-hi-UYr.normalTitle" = "-";
+
+/* Class = "UILabel"; text = "查询结果显示"; ObjectID = "xAg-D4-9gq"; */
+"xAg-D4-9gq.text" = "查询结果显示";
+
+/* Class = "UILabel"; text = "400电话：4006096926"; ObjectID = "yGK-uf-O6W"; */
+"yGK-uf-O6W.text" = "400电话：4006096926";
+
+/* Class = "UILabel"; text = "联系邮箱"; ObjectID = "yIc-ma-jN4"; */
+"yIc-ma-jN4.text" = "联系邮箱";
+
+/* Class = "UITableViewSection"; headerTitle = "个人信息"; ObjectID = "yuR-OD-riW"; */
+"yuR-OD-riW.headerTitle" = "个人信息";
+
+/* Class = "UISegmentedControl"; znz-WK-2fQ.segmentTitles[0] = "订单号"; ObjectID = "znz-WK-2fQ"; */
+"znz-WK-2fQ.segmentTitles[0]" = "订单号";
+
+/* Class = "UISegmentedControl"; znz-WK-2fQ.segmentTitles[1] = "商品名"; ObjectID = "znz-WK-2fQ"; */
+"znz-WK-2fQ.segmentTitles[1]" = "商品名";
+
+/* Class = "UISegmentedControl"; znz-WK-2fQ.segmentTitles[2] = "总价"; ObjectID = "znz-WK-2fQ"; */
+"znz-WK-2fQ.segmentTitles[2]" = "总价";
+
+/* Class = "UISegmentedControl"; znz-WK-2fQ.segmentTitles[3] = "数量"; ObjectID = "znz-WK-2fQ"; */
+"znz-WK-2fQ.segmentTitles[3]" = "数量";
+
+/* Class = "UISegmentedControl"; znz-WK-2fQ.segmentTitles[4] = "时间"; ObjectID = "znz-WK-2fQ"; */
+"znz-WK-2fQ.segmentTitles[4]" = "时间";
+
+/* Class = "UISegmentedControl"; znz-WK-2fQ.segmentTitles[5] = "状态"; ObjectID = "znz-WK-2fQ"; */
+"znz-WK-2fQ.segmentTitles[5]" = "状态";

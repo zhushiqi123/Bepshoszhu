@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="107" id="fh8-4j-dZ9" userLabel="DetailsACellTableD" customClass="DetailsACellTableD">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="107"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fh8-4j-dZ9" id="8aR-WD-I54">
+                <rect key="frame" x="0.0" y="0.0" width="447" height="106.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="q4m-6x-u16">
+                        <rect key="frame" x="0.0" y="0.0" width="447" height="107"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="q4m-6x-u16" secondAttribute="trailing" constant="-8" id="EhL-BY-PkG"/>
+                    <constraint firstItem="q4m-6x-u16" firstAttribute="top" secondItem="8aR-WD-I54" secondAttribute="topMargin" constant="-8" id="WnH-m1-htz"/>
+                    <constraint firstItem="q4m-6x-u16" firstAttribute="leading" secondItem="8aR-WD-I54" secondAttribute="leadingMargin" constant="-8" id="hdN-Dx-eai"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="q4m-6x-u16" secondAttribute="bottom" constant="-8" id="nSC-rr-Svn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tableview" destination="q4m-6x-u16" id="fbU-Wp-Z2G"/>
+            </connections>
+            <point key="canvasLocation" x="342.5" y="280.5"/>
+        </tableViewCell>
+    </objects>
+</document>

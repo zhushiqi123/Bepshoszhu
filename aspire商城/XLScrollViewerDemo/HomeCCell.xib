@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="2Cc-D9-2tR" userLabel="HomeCCell" customClass="HomeCCell">
+            <rect key="frame" x="0.0" y="0.0" width="500" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2Cc-D9-2tR" id="1Ow-rl-osb">
+                <rect key="frame" x="0.0" y="0.0" width="500" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M3j-PB-JHt">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="200"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="aspire" translatesAutoresizingMaskIntoConstraints="NO" id="4Cc-lD-RH0">
+                                <rect key="frame" x="75" y="8" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="88P-wA-wvl"/>
+                                    <constraint firstAttribute="height" constant="100" id="Yr6-3L-Jqz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="aspire鹦鹉螺精品套装" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhp-pM-bDd">
+                                <rect key="frame" x="8" y="171" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="￥700.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMQ-DL-gpF">
+                                <rect key="frame" x="8" y="142" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.68237179489999999" green="0.68237179489999999" blue="0.68237179489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hhp-pM-bDd" firstAttribute="top" secondItem="wMQ-DL-gpF" secondAttribute="bottom" constant="8" id="Co5-ie-rB9"/>
+                            <constraint firstItem="hhp-pM-bDd" firstAttribute="leading" secondItem="M3j-PB-JHt" secondAttribute="leading" constant="8" id="Oq2-5P-rgq"/>
+                            <constraint firstItem="4Cc-lD-RH0" firstAttribute="centerX" secondItem="M3j-PB-JHt" secondAttribute="centerX" id="SvS-hX-DP8"/>
+                            <constraint firstItem="4Cc-lD-RH0" firstAttribute="top" secondItem="M3j-PB-JHt" secondAttribute="top" constant="8" id="WK2-lz-mfg"/>
+                            <constraint firstItem="wMQ-DL-gpF" firstAttribute="leading" secondItem="M3j-PB-JHt" secondAttribute="leading" constant="8" id="bW3-cj-fzI"/>
+                            <constraint firstAttribute="bottom" secondItem="hhp-pM-bDd" secondAttribute="bottom" constant="8" id="hdE-Vo-Mgb"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="31O-mE-wIT">
+                        <rect key="frame" x="250" y="0.0" width="250" height="200"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="aspire" translatesAutoresizingMaskIntoConstraints="NO" id="6t6-HO-Ywg">
+                                <rect key="frame" x="75" y="8" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="3m1-zb-eBU"/>
+                                    <constraint firstAttribute="width" constant="100" id="kzr-e5-yvE"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="￥600.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayj-GX-Vxh">
+                                <rect key="frame" x="8" y="142" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.68237179489999999" green="0.68237179489999999" blue="0.68237179489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="aspire鹦鹉螺精品套装" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvQ-Qp-XpG">
+                                <rect key="frame" x="8" y="171" width="166" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6t6-HO-Ywg" firstAttribute="centerX" secondItem="31O-mE-wIT" secondAttribute="centerX" id="3Z4-RW-mbE"/>
+                            <constraint firstItem="yvQ-Qp-XpG" firstAttribute="leading" secondItem="31O-mE-wIT" secondAttribute="leading" constant="8" id="IGM-wA-Kec"/>
+                            <constraint firstItem="ayj-GX-Vxh" firstAttribute="leading" secondItem="31O-mE-wIT" secondAttribute="leading" constant="8" id="JMK-10-oRa"/>
+                            <constraint firstItem="6t6-HO-Ywg" firstAttribute="top" secondItem="31O-mE-wIT" secondAttribute="top" constant="8" id="KhZ-jT-ivR"/>
+                            <constraint firstItem="yvQ-Qp-XpG" firstAttribute="top" secondItem="ayj-GX-Vxh" secondAttribute="bottom" constant="8" id="mEs-H2-wCt"/>
+                            <constraint firstAttribute="bottom" secondItem="yvQ-Qp-XpG" secondAttribute="bottom" constant="8" id="oFm-cJ-Ggz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="M3j-PB-JHt" firstAttribute="leading" secondItem="1Ow-rl-osb" secondAttribute="leadingMargin" id="DOE-S3-sz8"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="31O-mE-wIT" secondAttribute="bottom" constant="-8" id="FtN-My-P5p"/>
+                    <constraint firstItem="31O-mE-wIT" firstAttribute="width" secondItem="M3j-PB-JHt" secondAttribute="width" id="Niq-SS-cJa"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="M3j-PB-JHt" secondAttribute="bottom" constant="-8" id="Txv-XP-kBH"/>
+                    <constraint firstItem="31O-mE-wIT" firstAttribute="leading" secondItem="M3j-PB-JHt" secondAttribute="trailing" id="VYT-y8-sVa"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="31O-mE-wIT" secondAttribute="trailing" id="cE9-b9-cOG"/>
+                    <constraint firstItem="31O-mE-wIT" firstAttribute="top" secondItem="1Ow-rl-osb" secondAttribute="topMargin" id="cwC-eN-nvL"/>
+                    <constraint firstItem="M3j-PB-JHt" firstAttribute="top" secondItem="1Ow-rl-osb" secondAttribute="topMargin" id="phB-kv-Qvu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                    <real key="value" value="0.20000000000000001"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="imageC_logo1" destination="4Cc-lD-RH0" id="5Mo-TC-5lO"/>
+                <outlet property="imageC_logo2" destination="6t6-HO-Ywg" id="fxa-NM-F19"/>
+                <outlet property="lableC_text1" destination="hhp-pM-bDd" id="I7X-8q-5hX"/>
+                <outlet property="lableC_text2" destination="wMQ-DL-gpF" id="a98-Nf-ZNH"/>
+                <outlet property="lableC_text3" destination="ayj-GX-Vxh" id="WMG-Fn-gSc"/>
+                <outlet property="lableC_text4" destination="yvQ-Qp-XpG" id="9zt-gm-9xl"/>
+            </connections>
+            <point key="canvasLocation" x="384" y="238"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="aspire" width="140" height="140"/>
+    </resources>
+</document>
