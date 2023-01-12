@@ -1213,6 +1213,13 @@ create-react-class@^15.5.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
+create-react-class@^15.6.2:
+  version "15.7.0"
+  resolved "https://registry.npmmirror.com/create-react-class/-/create-react-class-15.7.0.tgz#7499d7ca2e69bb51d13faf59bd04f0c65a1d6c1e"
+  dependencies:
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
 cross-spawn@^5.0.1, cross-spawn@^5.1.0:
   version "5.1.0"
   resolved "http://registry.npm.taobao.org/cross-spawn/download/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
@@ -1956,6 +1963,10 @@ ieee754@^1.1.4:
 image-size@^0.6.0:
   version "0.6.1"
   resolved "http://registry.npm.taobao.org/image-size/download/image-size-0.6.1.tgz#98122a562d59dcc097ef1b2c8191866eb8f5d663"
+
+immutable@^3.8.2:
+  version "3.8.2"
+  resolved "https://registry.npmmirror.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -2904,7 +2915,7 @@ ms@0.7.2:
 
 ms@2.0.0:
   version "2.0.0"
-  resolved "http://registry.npm.taobao.org/ms/download/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
 multiparty@3.3.2:
   version "3.3.2"
@@ -3391,6 +3402,14 @@ react-native-safe-module@^1.1.0:
   dependencies:
     dedent "^0.6.0"
 
+react-native-scrollable-tab-view@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.npmmirror.com/react-native-scrollable-tab-view/-/react-native-scrollable-tab-view-0.8.0.tgz#5cb1fcfce07bf530a3c81ab51fc5071144edac5c"
+  dependencies:
+    create-react-class "^15.6.2"
+    prop-types "^15.6.0"
+    react-timer-mixin "^0.13.3"
+
 react-native-swiper@^1.5.13:
   version "1.5.13"
   resolved "http://registry.npm.taobao.org/react-native-swiper/download/react-native-swiper-1.5.13.tgz#fa695cd4ab77b9a9df2d2bfee38ea7274dd07a2e"
@@ -3482,6 +3501,10 @@ react-test-renderer@16.0.0:
 react-timer-mixin@^0.13.2:
   version "0.13.3"
   resolved "http://registry.npm.taobao.org/react-timer-mixin/download/react-timer-mixin-0.13.3.tgz#0da8b9f807ec07dc3e854d082c737c65605b3d22"
+
+react-timer-mixin@^0.13.3:
+  version "0.13.4"
+  resolved "https://registry.npmmirror.com/react-timer-mixin/-/react-timer-mixin-0.13.4.tgz#75a00c3c94c13abe29b43d63b4c65a88fc8264d3"
 
 react-transform-hmr@^1.0.4:
   version "1.0.4"
